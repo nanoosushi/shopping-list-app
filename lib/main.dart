@@ -15,12 +15,12 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Groceries',
       theme: ThemeData.dark().copyWith(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color.fromARGB(255, 147, 229, 250),
+          seedColor: const Color.fromARGB(255, 221, 161, 105),
           brightness: Brightness.dark,
-          surface: const Color.fromARGB(255, 42, 51, 59),
+          surface: const Color.fromARGB(255, 148, 69, 24),
         ),
         textTheme: GoogleFonts.rubikTextTheme(),
-        scaffoldBackgroundColor: const Color.fromARGB(255, 50, 58, 60),
+        scaffoldBackgroundColor: const Color.fromARGB(255, 36, 36, 36),
       ),
       home: const GroceryList(),
     );

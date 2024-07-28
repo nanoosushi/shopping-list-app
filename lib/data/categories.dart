@@ -13,7 +13,7 @@ const categories = {
   ),
   Categories.meat: Category(
     'Meat',
-    Color.fromARGB(255, 255, 102, 0),
+    Color.fromARGB(255, 167, 49, 38),
   ),
   Categories.dairy: Category(
     'Dairy',
